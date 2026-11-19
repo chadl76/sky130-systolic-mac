@@ -1,0 +1,100 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1794929483
+<< viali >>
+rect 211 229 245 263
+rect 344 308 378 342
+rect 1357 365 1391 399
+rect 1874 288 1908 322
+rect 3233 351 3267 385
+rect 20 380 80 440
+rect 3520 310 3560 350
+rect 20 230 70 270
+rect 1710 170 1750 210
+rect 2120 170 2160 210
+<< metal1 >>
+rect 199 223 257 350
+rect 332 206 390 348
+rect 1345 356 1403 475
+rect 1862 282 1920 476
+rect 1446 180 1498 260
+rect 3221 345 3279 476
+rect 262 504 323 600
+rect 1790 504 1851 600
+rect 0 440 100 460
+rect 0 380 20 440
+rect 80 420 100 440
+rect 80 380 660 420
+rect 0 360 100 380
+rect 620 310 660 380
+rect 3500 350 3580 370
+rect 3500 310 3520 350
+rect 3560 310 3580 350
+rect 3500 290 3580 310
+rect 0 270 90 280
+rect 0 230 20 270
+rect 70 230 90 270
+rect 0 210 90 230
+rect 1680 220 1750 230
+rect 2110 220 2180 230
+rect 1680 210 2180 220
+rect 30 120 60 210
+rect 1680 170 1710 210
+rect 1750 170 2120 210
+rect 2160 170 2180 210
+rect 1680 160 2180 170
+rect 1680 150 1770 160
+rect 2110 150 2180 160
+rect 3520 120 3560 290
+rect 30 90 3560 120
+rect 270 -40 331 56
+rect 1780 -40 1841 56
+<< via1 >>
+rect 202 292 254 344
+rect 335 212 387 264
+rect 1348 417 1400 469
+rect 1865 417 1917 469
+rect 1446 186 1498 238
+rect 3224 417 3276 469
+<< metal2 >>
+rect 3216 417 3224 475
+rect 202 -60 254 660
+rect 1865 -60 1917 660
+rect 335 206 387 660
+rect 1348 110 1400 475
+rect 335 110 1400 150
+rect 335 -60 387 150
+rect 1446 180 1498 244
+rect 3224 417 3640 475
+use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1787844598
+transform 1 0 1838 0 1 8
+box -38 -48 1786 592
+use sky130_fd_sc_hd__fa_1  sky130_fd_sc_hd__fa_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1787844598
+transform 1 0 318 0 1 8
+box -38 -48 1510 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1787844598
+transform 1 0 -94 0 1 8
+box -38 -48 130 592
+use sky130_fd_sc_hd__nor2_1  sky130_fd_sc_hd__nor2_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1787844598
+transform 1 0 -2 0 1 8
+box -38 -48 314 592
+<< labels >>
+flabel metal2 202 600 254 640 0 FreeSans 100 0 0 0 clr
+port 1 nsew signal input
+flabel metal2 1865 600 1917 640 0 FreeSans 100 0 0 0 clk
+port 2 nsew signal input
+flabel metal2 335 -40 387 0 0 FreeSans 100 0 0 0 c_in
+port 3 nsew signal input
+flabel metal2 335 600 387 640 0 FreeSans 100 0 0 0 c_out
+port 4 nsew signal output
+flabel metal2 1446 190 1498 234 0 FreeSans 100 0 0 0 p_i
+port 5 nsew signal input
+flabel metal2 3600 417 3640 475 0 FreeSans 100 0 0 0 q_i
+port 6 nsew signal output
+<< end >>
+

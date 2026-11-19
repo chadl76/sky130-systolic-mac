@@ -1,0 +1,286 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1794940000
+<< metal1 >>
+rect 3584 13461 3758 13557
+rect -242 12917 -96 13013
+rect -242 12333 -182 12917
+rect 3698 12877 3758 13461
+rect 3584 12781 3758 12877
+rect -242 12237 -96 12333
+rect -242 11653 -182 12237
+rect 3698 12197 3758 12781
+rect 3584 12101 3758 12197
+rect -242 11557 -96 11653
+rect -242 10973 -182 11557
+rect 3698 11517 3758 12101
+rect 3584 11421 3758 11517
+rect -242 10877 -96 10973
+rect -242 10293 -182 10877
+rect 3698 10837 3758 11421
+rect 3584 10741 3758 10837
+rect -242 10197 -96 10293
+rect -242 9613 -182 10197
+rect 3698 10157 3758 10741
+rect 3584 10061 3758 10157
+rect -242 9517 -96 9613
+rect -242 8933 -182 9517
+rect 3698 9477 3758 10061
+rect 3584 9381 3758 9477
+rect -242 8837 -96 8933
+rect -242 8253 -182 8837
+rect 3698 8797 3758 9381
+rect 3584 8701 3758 8797
+rect -242 8157 -96 8253
+rect -242 7573 -182 8157
+rect 3698 8117 3758 8701
+rect 3584 8021 3758 8117
+rect -242 7477 -96 7573
+rect -242 6893 -182 7477
+rect 3698 7437 3758 8021
+rect 3584 7341 3758 7437
+rect -242 6797 -96 6893
+rect -242 6213 -182 6797
+rect 3698 6757 3758 7341
+rect 3584 6661 3758 6757
+rect -242 6117 -96 6213
+rect -242 5533 -182 6117
+rect 3698 6077 3758 6661
+rect 3584 5981 3758 6077
+rect -242 5437 -96 5533
+rect -242 4853 -182 5437
+rect 3698 5397 3758 5981
+rect 3584 5301 3758 5397
+rect -242 4757 -96 4853
+rect -242 4173 -182 4757
+rect 3698 4717 3758 5301
+rect 3584 4621 3758 4717
+rect -242 4077 -96 4173
+rect -242 3493 -182 4077
+rect 3698 4037 3758 4621
+rect 3584 3941 3758 4037
+rect -242 3397 -96 3493
+rect -242 2813 -182 3397
+rect 3698 3357 3758 3941
+rect 3584 3261 3758 3357
+rect -242 2717 -96 2813
+rect -242 2133 -182 2717
+rect 3698 2677 3758 3261
+rect 3584 2581 3758 2677
+rect -242 2037 -96 2133
+rect -242 1453 -182 2037
+rect 3698 1997 3758 2581
+rect 3584 1901 3758 1997
+rect -242 1357 -96 1453
+rect -242 773 -182 1357
+rect 3698 1317 3758 1901
+rect 3584 1221 3758 1317
+rect -242 677 -96 773
+rect -242 93 -182 677
+rect 3698 637 3758 1221
+rect 3584 541 3758 637
+rect -242 -3 -96 93
+<< via1 >>
+rect 333 11 385 63
+<< metal2 >>
+rect 200 13557 252 13597
+rect 1863 13557 1915 13597
+rect 3598 13374 3638 13432
+rect 1444 10417 1496 13201
+rect 3598 12694 3638 12752
+rect 3598 12014 3638 12072
+rect 3598 11334 3638 11392
+rect 3598 10654 3638 10712
+rect 3598 9974 3638 10032
+rect 1444 9747 1496 9791
+rect 3598 9294 3638 9352
+rect 1444 9067 1496 9111
+rect 3598 8614 3638 8672
+rect 1444 8387 1496 8431
+rect 3598 7934 3638 7992
+rect 1444 7707 1496 7751
+rect 3598 7254 3638 7312
+rect 1444 7027 1496 7071
+rect 3598 6574 3638 6632
+rect 1444 6347 1496 6391
+rect 3598 5894 3638 5952
+rect 1444 5667 1496 5711
+rect 3598 5214 3638 5272
+rect 1444 4987 1496 5031
+rect 3598 4534 3638 4592
+rect 1444 4307 1496 4351
+rect 3598 3854 3638 3912
+rect 1444 3627 1496 3671
+rect 3598 3174 3638 3232
+rect 1444 2947 1496 2991
+rect 3598 2494 3638 2552
+rect 1444 2267 1496 2311
+rect 3598 1814 3638 1872
+rect 1444 1587 1496 1631
+rect 3598 1134 3638 1192
+rect 1444 907 1496 951
+rect 3598 454 3638 512
+rect 1444 227 1496 271
+use acc_slice  acc_slice_0
+timestamp 1794929483
+transform 1 0 -2 0 1 37
+box -136 -60 3640 660
+use acc_slice  acc_slice_1
+timestamp 1794929483
+transform 1 0 -2 0 1 717
+box -136 -60 3640 660
+use acc_slice  acc_slice_2
+timestamp 1794929483
+transform 1 0 -2 0 1 1397
+box -136 -60 3640 660
+use acc_slice  acc_slice_3
+timestamp 1794929483
+transform 1 0 -2 0 1 2077
+box -136 -60 3640 660
+use acc_slice  acc_slice_4
+timestamp 1794929483
+transform 1 0 -2 0 1 2757
+box -136 -60 3640 660
+use acc_slice  acc_slice_5
+timestamp 1794929483
+transform 1 0 -2 0 1 3437
+box -136 -60 3640 660
+use acc_slice  acc_slice_6
+timestamp 1794929483
+transform 1 0 -2 0 1 4117
+box -136 -60 3640 660
+use acc_slice  acc_slice_7
+timestamp 1794929483
+transform 1 0 -2 0 1 4797
+box -136 -60 3640 660
+use acc_slice  acc_slice_8
+timestamp 1794929483
+transform 1 0 -2 0 1 5477
+box -136 -60 3640 660
+use acc_slice  acc_slice_9
+timestamp 1794929483
+transform 1 0 -2 0 1 6157
+box -136 -60 3640 660
+use acc_slice  acc_slice_10
+timestamp 1794929483
+transform 1 0 -2 0 1 6837
+box -136 -60 3640 660
+use acc_slice  acc_slice_11
+timestamp 1794929483
+transform 1 0 -2 0 1 7517
+box -136 -60 3640 660
+use acc_slice  acc_slice_12
+timestamp 1794929483
+transform 1 0 -2 0 1 8197
+box -136 -60 3640 660
+use acc_slice  acc_slice_13
+timestamp 1794929483
+transform 1 0 -2 0 1 8877
+box -136 -60 3640 660
+use acc_slice  acc_slice_14
+timestamp 1794929483
+transform 1 0 -2 0 1 9557
+box -136 -60 3640 660
+use acc_slice  acc_slice_15
+timestamp 1794929483
+transform 1 0 -2 0 1 10237
+box -136 -60 3640 660
+use acc_slice  acc_slice_16
+timestamp 1794929483
+transform 1 0 -2 0 1 10917
+box -136 -60 3640 660
+use acc_slice  acc_slice_17
+timestamp 1794929483
+transform 1 0 -2 0 1 11597
+box -136 -60 3640 660
+use acc_slice  acc_slice_18
+timestamp 1794929483
+transform 1 0 -2 0 1 12277
+box -136 -60 3640 660
+use acc_slice  acc_slice_19
+timestamp 1794929483
+transform 1 0 -2 0 1 12957
+box -136 -60 3640 660
+<< labels >>
+flabel metal2 1444 227 1496 271 0 FreeSans 200 0 0 0 P0
+port 1 nsew signal input
+flabel metal2 1444 907 1496 951 0 FreeSans 200 0 0 0 P1
+port 2 nsew signal input
+flabel metal2 1444 1587 1496 1631 0 FreeSans 200 0 0 0 P2
+port 3 nsew signal input
+flabel metal2 1444 2267 1496 2311 0 FreeSans 200 0 0 0 P3
+port 4 nsew signal input
+flabel metal2 1444 2947 1496 2991 0 FreeSans 200 0 0 0 P4
+port 5 nsew signal input
+flabel metal2 1444 3627 1496 3671 0 FreeSans 200 0 0 0 P5
+port 6 nsew signal input
+flabel metal2 1444 4307 1496 4351 0 FreeSans 200 0 0 0 P6
+port 7 nsew signal input
+flabel metal2 1444 4987 1496 5031 0 FreeSans 200 0 0 0 P7
+port 8 nsew signal input
+flabel metal2 1444 5667 1496 5711 0 FreeSans 200 0 0 0 P8
+port 9 nsew signal input
+flabel metal2 1444 6347 1496 6391 0 FreeSans 200 0 0 0 P9
+port 10 nsew signal input
+flabel metal2 1444 7027 1496 7071 0 FreeSans 200 0 0 0 P10
+port 11 nsew signal input
+flabel metal2 1444 7707 1496 7751 0 FreeSans 200 0 0 0 P11
+port 12 nsew signal input
+flabel metal2 1444 8387 1496 8431 0 FreeSans 200 0 0 0 P12
+port 13 nsew signal input
+flabel metal2 1444 9067 1496 9111 0 FreeSans 200 0 0 0 P13
+port 14 nsew signal input
+flabel metal2 1444 9747 1496 9791 0 FreeSans 200 0 0 0 P14
+port 15 nsew signal input
+flabel metal2 1444 10427 1496 10471 0 FreeSans 200 0 0 0 P15
+port 16 nsew signal input
+flabel metal2 3598 454 3638 512 0 FreeSans 200 0 0 0 ACC0
+port 17 nsew signal output
+flabel metal2 3598 1134 3638 1192 0 FreeSans 200 0 0 0 ACC1
+port 18 nsew signal output
+flabel metal2 3598 1814 3638 1872 0 FreeSans 200 0 0 0 ACC2
+port 19 nsew signal output
+flabel metal2 3598 2494 3638 2552 0 FreeSans 200 0 0 0 ACC3
+port 20 nsew signal output
+flabel metal2 3598 3174 3638 3232 0 FreeSans 200 0 0 0 ACC4
+port 21 nsew signal output
+flabel metal2 3598 3854 3638 3912 0 FreeSans 200 0 0 0 ACC5
+port 22 nsew signal output
+flabel metal2 3598 4534 3638 4592 0 FreeSans 200 0 0 0 ACC6
+port 23 nsew signal output
+flabel metal2 3598 5214 3638 5272 0 FreeSans 200 0 0 0 ACC7
+port 24 nsew signal output
+flabel metal2 3598 5894 3638 5952 0 FreeSans 200 0 0 0 ACC8
+port 25 nsew signal output
+flabel metal2 3598 6574 3638 6632 0 FreeSans 200 0 0 0 ACC9
+port 26 nsew signal output
+flabel metal2 3598 7254 3638 7312 0 FreeSans 200 0 0 0 ACC10
+port 27 nsew signal output
+flabel metal2 3598 7934 3638 7992 0 FreeSans 200 0 0 0 ACC11
+port 28 nsew signal output
+flabel metal2 3598 8614 3638 8672 0 FreeSans 200 0 0 0 ACC12
+port 29 nsew signal output
+flabel metal2 3598 9294 3638 9352 0 FreeSans 200 0 0 0 ACC13
+port 30 nsew signal output
+flabel metal2 3598 9974 3638 10032 0 FreeSans 200 0 0 0 ACC14
+port 31 nsew signal output
+flabel metal2 3598 10654 3638 10712 0 FreeSans 200 0 0 0 ACC15
+port 32 nsew signal output
+flabel metal2 3598 11334 3638 11392 0 FreeSans 200 0 0 0 ACC16
+port 33 nsew signal output
+flabel metal2 3598 12014 3638 12072 0 FreeSans 200 0 0 0 ACC17
+port 34 nsew signal output
+flabel metal2 3598 12694 3638 12752 0 FreeSans 200 0 0 0 ACC18
+port 35 nsew signal output
+flabel metal2 3598 13374 3638 13432 0 FreeSans 200 0 0 0 ACC19
+port 36 nsew signal output
+flabel metal2 200 13557 252 13597 0 FreeSans 200 0 0 0 clr
+port 37 nsew signal input
+flabel metal2 1863 13557 1915 13597 0 FreeSans 200 0 0 0 clk
+port 38 nsew signal input
+flabel metal1 3698 6000 3758 6060 0 FreeSans 200 0 0 0 VDD
+port 39 nsew signal input
+flabel metal1 -242 6000 -182 6060 0 FreeSans 200 0 0 0 VSS
+port 40 nsew signal input
+<< end >>

@@ -1,0 +1,491 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: nand2                           |Circuit 2: nand2                           
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__pfet_01v8:3 vs. sky130_fd_pr__pfet_01v8:M1:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:2 vs. sky130_fd_pr__pfet_01v8:M2:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:1 vs. sky130_fd_pr__nfet_01v8:M4:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:0 vs. sky130_fd_pr__nfet_01v8:M3:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: nand2                           |Circuit 2: nand2                           
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+pp                                         |ppb **Mismatch**                           
+VSS                                        |VSS                                        
+b                                          |B                                          
+a                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists for nand2 and nand2 altered to match.
+Device classes nand2 and nand2 are equivalent.
+Flattening unmatched subcell carry1 in circuit pp_cell (0)(1 instance)
+Flattening unmatched subcell sum_backup in circuit pp_cell (0)(1 instance)
+Flattening unmatched subcell pp_and2 in circuit pp_cell (0)(1 instance)
+Flattening unmatched subcell sum in circuit pp_cell (1)(1 instance)
+Flattening unmatched subcell carry in circuit pp_cell (1)(1 instance)
+Flattening unmatched subcell and2 in circuit pp_cell (1)(1 instance)
+
+Subcircuit summary:
+Circuit 1: pp_cell                         |Circuit 2: pp_cell                         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (17)               |sky130_fd_pr__pfet_01v8 (17)               
+sky130_fd_pr__nfet_01v8 (17)               |sky130_fd_pr__nfet_01v8 (17)               
+Number of devices: 34                      |Number of devices: 34                      
+Number of nets: 23                         |Number of nets: 23                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sum_backup_0/sky130_fd_pr__nfet_01v8:4 vs. sum/sky130_fd_pr__nfet_01v8:M27:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:7 vs. sum/sky130_fd_pr__nfet_01v8:M28:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:10 vs. sum/sky130_fd_pr__nfet_01v8:M29:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:0 vs. sum/sky130_fd_pr__nfet_01v8:M26:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:11 vs. sum/sky130_fd_pr__nfet_01v8:M31:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 1   (delta=35.3%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:9 vs. sum/sky130_fd_pr__nfet_01v8:M30:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 1   (delta=35.3%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:12 vs. sum/sky130_fd_pr__nfet_01v8:M34:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:3 vs. sum/sky130_fd_pr__nfet_01v8:M32:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 1   (delta=35.3%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:7 vs. carry/sky130_fd_pr__nfet_01v8:M12:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:6 vs. carry/sky130_fd_pr__nfet_01v8:M13:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:10 vs. carry/sky130_fd_pr__nfet_01v8:M14:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:11 vs. carry/sky130_fd_pr__nfet_01v8:M15:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:9 vs. carry/sky130_fd_pr__nfet_01v8:M16:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:5 vs. carry/sky130_fd_pr__nfet_01v8:M18:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+pp_and2_0/sky130_fd_pr__nfet_01v8:0 vs. and2:1/sky130_fd_pr__nfet_01v8:M3:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+pp_and2_0/sky130_fd_pr__nfet_01v8:1 vs. and2:1/sky130_fd_pr__nfet_01v8:M4:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+pp_and2_0/sky130_fd_pr__nfet_01v8:2 vs. and2:1/sky130_fd_pr__nfet_01v8:M6:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:5 vs. sum/sky130_fd_pr__pfet_01v8:M19:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:14 vs. sum/sky130_fd_pr__pfet_01v8:M20:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:6 vs. sum/sky130_fd_pr__pfet_01v8:M21:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:15 vs. sum/sky130_fd_pr__pfet_01v8:M22:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:8 vs. sum/sky130_fd_pr__pfet_01v8:M24:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 1   circuit2: 1.5   (delta=40%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:1 vs. sum/sky130_fd_pr__pfet_01v8:M25:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 1   circuit2: 1.5   (delta=40%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:13 vs. sum/sky130_fd_pr__pfet_01v8:M33:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:2 vs. sum/sky130_fd_pr__pfet_01v8:M23:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 1   circuit2: 1.5   (delta=40%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:2 vs. carry/sky130_fd_pr__pfet_01v8:M7:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:3 vs. carry/sky130_fd_pr__pfet_01v8:M8:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:1 vs. carry/sky130_fd_pr__pfet_01v8:M9:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:4 vs. carry/sky130_fd_pr__pfet_01v8:M11:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:8 vs. carry/sky130_fd_pr__pfet_01v8:M17:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:0 vs. carry/sky130_fd_pr__pfet_01v8:M10:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+pp_and2_0/sky130_fd_pr__pfet_01v8:5 vs. and2:1/sky130_fd_pr__pfet_01v8:M1:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+pp_and2_0/sky130_fd_pr__pfet_01v8:3 vs. and2:1/sky130_fd_pr__pfet_01v8:M2:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+pp_and2_0/sky130_fd_pr__pfet_01v8:4 vs. and2:1/sky130_fd_pr__pfet_01v8:M5:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: pp_cell                         |Circuit 2: pp_cell                         
+-------------------------------------------|-------------------------------------------
+c_in                                       |c_in                                       
+VDD                                        |VDD                                        
+S_out                                      |S_out                                      
+C_out                                      |C_out                                      
+b_j                                        |a_i **Mismatch**                           
+a_i                                        |b_j **Mismatch**                           
+VSS                                        |VSS                                        
+s_in                                       |s_in                                       
+---------------------------------------------------------------------------------------
+Cell pin lists for pp_cell and pp_cell altered to match.
+Device classes pp_cell and pp_cell are equivalent.
+Flattening unmatched subcell carry1 in circuit pp_cell_sign (0)(1 instance)
+Flattening unmatched subcell sum_backup in circuit pp_cell_sign (0)(1 instance)
+Flattening unmatched subcell sum in circuit pp_cell_sign (1)(1 instance)
+Flattening unmatched subcell carry in circuit pp_cell_sign (1)(1 instance)
+
+Flattening instances of nand2 in cell pp_cell_sign (1) makes a better match
+Making another compare attempt.
+
+Subcircuit summary:
+Circuit 1: pp_cell_sign                    |Circuit 2: pp_cell_sign                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (16)               |sky130_fd_pr__pfet_01v8 (16)               
+sky130_fd_pr__nfet_01v8 (16)               |sky130_fd_pr__nfet_01v8 (16)               
+Number of devices: 32                      |Number of devices: 32                      
+Number of nets: 22                         |Number of nets: 22                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sum_backup_0/sky130_fd_pr__nfet_01v8:4 vs. sum/sky130_fd_pr__nfet_01v8:M27:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:7 vs. sum/sky130_fd_pr__nfet_01v8:M28:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:10 vs. sum/sky130_fd_pr__nfet_01v8:M29:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:0 vs. sum/sky130_fd_pr__nfet_01v8:M26:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:11 vs. sum/sky130_fd_pr__nfet_01v8:M31:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 1   (delta=35.3%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:9 vs. sum/sky130_fd_pr__nfet_01v8:M30:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 1   (delta=35.3%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:12 vs. sum/sky130_fd_pr__nfet_01v8:M34:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__nfet_01v8:3 vs. sum/sky130_fd_pr__nfet_01v8:M32:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 1   (delta=35.3%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:7 vs. carry/sky130_fd_pr__nfet_01v8:M12:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:6 vs. carry/sky130_fd_pr__nfet_01v8:M13:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:10 vs. carry/sky130_fd_pr__nfet_01v8:M14:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:11 vs. carry/sky130_fd_pr__nfet_01v8:M15:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:9 vs. carry/sky130_fd_pr__nfet_01v8:M16:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+carry1_0/sky130_fd_pr__nfet_01v8:5 vs. carry/sky130_fd_pr__nfet_01v8:M18:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:2 vs. nand2:1/sky130_fd_pr__nfet_01v8:M3:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:0 vs. nand2:1/sky130_fd_pr__nfet_01v8:M4:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 0.7   circuit2: 0.65   (delta=7.41%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:5 vs. sum/sky130_fd_pr__pfet_01v8:M19:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:14 vs. sum/sky130_fd_pr__pfet_01v8:M20:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:6 vs. sum/sky130_fd_pr__pfet_01v8:M21:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:15 vs. sum/sky130_fd_pr__pfet_01v8:M22:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:8 vs. sum/sky130_fd_pr__pfet_01v8:M24:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 1   circuit2: 1.5   (delta=40%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:1 vs. sum/sky130_fd_pr__pfet_01v8:M25:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 1   circuit2: 1.5   (delta=40%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:13 vs. sum/sky130_fd_pr__pfet_01v8:M33:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sum_backup_0/sky130_fd_pr__pfet_01v8:2 vs. sum/sky130_fd_pr__pfet_01v8:M23:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+ w circuit1: 1   circuit2: 1.5   (delta=40%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:2 vs. carry/sky130_fd_pr__pfet_01v8:M7:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:3 vs. carry/sky130_fd_pr__pfet_01v8:M8:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:1 vs. carry/sky130_fd_pr__pfet_01v8:M9:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:4 vs. carry/sky130_fd_pr__pfet_01v8:M11:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:8 vs. carry/sky130_fd_pr__pfet_01v8:M17:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+carry1_0/sky130_fd_pr__pfet_01v8:0 vs. carry/sky130_fd_pr__pfet_01v8:M10:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:3 vs. nand2:1/sky130_fd_pr__pfet_01v8:M1:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:1 vs. nand2:1/sky130_fd_pr__pfet_01v8:M2:
+ l circuit1: 0.4   circuit2: 0.15   (delta=90.9%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: pp_cell_sign                    |Circuit 2: pp_cell_sign                    
+-------------------------------------------|-------------------------------------------
+c_in                                       |c_in                                       
+VDD                                        |VDD                                        
+S_out                                      |S_out                                      
+C_out                                      |C_out                                      
+a_i                                        |a_i                                        
+b_j                                        |b_j                                        
+VSS                                        |VSS                                        
+s_in                                       |s_in                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes pp_cell_sign and pp_cell_sign are equivalent.
+
+Subcircuit summary:
+Circuit 1: row_7                           |Circuit 2: row_7                           
+-------------------------------------------|-------------------------------------------
+pp_cell (1)                                |pp_cell (1)                                
+pp_cell_sign (7)                           |pp_cell_sign (7)                           
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 35                         |Number of nets: 35                         
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: row_7                           |Circuit 2: row_7                           
+
+---------------------------------------------------------------------------------------
+Net: VSS                                   |Net: VSS                                   
+  pp_cell/VSS = 1                          |  pp_cell/VSS = 1                          
+  pp_cell_sign/VSS = 7                     |  pp_cell_sign/VSS = 7                     
+  pp_cell_sign/c_in = 1                    |  pp_cell_sign/c_in = 1                    
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: VDD                                   |Net: VDD                                   
+  pp_cell/VDD = 1                          |  pp_cell/VDD = 1                          
+  pp_cell_sign/VDD = 7                     |  pp_cell_sign/VDD = 7                     
+                                           |                                           
+Net: b                                     |Net: b                                     
+  pp_cell/b_j = 1                          |  pp_cell/b_j = 1                          
+  pp_cell_sign/b_j = 7                     |  pp_cell_sign/b_j = 7                     
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: pp_cell_7/c_in                        |Net: net7                                  
+  pp_cell/c_in = 1                         |  pp_cell/c_in = 1                         
+  pp_cell_sign/C_out = 1                   |  pp_cell_sign/C_out = 1                   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: sin7                                  |Net: sin7                                  
+  pp_cell/s_in = 1                         |  pp_cell/s_in = 1                         
+                                           |                                           
+Net: cout                                  |Net: cout                                  
+  pp_cell/C_out = 1                        |  pp_cell/C_out = 1                        
+                                           |                                           
+Net: a7                                    |Net: a7                                    
+  pp_cell/a_i = 1                          |  pp_cell/a_i = 1                          
+                                           |                                           
+Net: sout7                                 |Net: sout7                                 
+  pp_cell/S_out = 1                        |  pp_cell/S_out = 1                        
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: row_7                           |Circuit 2: row_7                           
+
+---------------------------------------------------------------------------------------
+Instance: pp_cell_7                        |Instance: pp_cell:7                        
+  C_out = 1                                |  C_out = 1                                
+  S_out = 1                                |  S_out = 1                                
+  c_in = 2                                 |  c_in = 2                                 
+  s_in = 1                                 |  s_in = 1                                 
+  b_j = 8                                  |  b_j = 8                                  
+  a_i = 1                                  |  a_i = 1                                  
+  VDD = 8                                  |  VDD = 8                                  
+  VSS = 9                                  |  VSS = 9                                  
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits row_7 row_7
+Flattening unmatched subcell row_1_test_label_fix in circuit mult8 (0)(7 instances)
+Flattening unmatched subcell row_n in circuit mult8 (1)(7 instances)
+
+Subcircuit summary:
+Circuit 1: mult8                           |Circuit 2: mult8                           
+-------------------------------------------|-------------------------------------------
+pp_cell (50)                               |pp_cell (50)                               
+pp_cell_sign (14)                          |pp_cell_sign (14)                          
+nand2 (1)                                  |nand2 (1)                                  
+Number of devices: 65                      |Number of devices: 65                      
+Number of nets: 147                        |Number of nets: 147                        
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: mult8                           |Circuit 2: mult8                           
+
+---------------------------------------------------------------------------------------
+Net: row_1_test_label_fix_6/b              |Net: b7                                    
+  pp_cell/b_j = 7                          |  pp_cell/b_j = 1                          
+  pp_cell_sign/b_j = 1                     |  pp_cell_sign/b_j = 7                     
+                                           |                                           
+Net: row_1_test_label_fix_5/b              |Net: b6                                    
+  pp_cell/b_j = 7                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 1                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: row_1_test_label_fix_4/b              |Net: b5                                    
+  pp_cell/b_j = 7                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 1                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: row_1_test_label_fix_3/b              |Net: b4                                    
+  pp_cell/b_j = 7                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 1                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: row_1_test_label_fix_2/b              |Net: b3                                    
+  pp_cell/b_j = 7                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 1                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: row_1_test_label_fix_1/b              |Net: b2                                    
+  pp_cell/b_j = 7                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 1                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: row_1_test_label_fix_0/b              |Net: b1                                    
+  pp_cell/b_j = 7                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 1                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: row_7_0/b                             |Net: b0                                    
+  pp_cell/b_j = 1                          |  pp_cell_sign/b_j = 1                     
+  pp_cell_sign/b_j = 7                     |  pp_cell/b_j = 7                          
+                                           |                                           
+Net: a1                                    |Net: a1                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+                                           |                                           
+Net: a5                                    |Net: a5                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+                                           |                                           
+Net: a4                                    |Net: a4                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+                                           |                                           
+Net: a3                                    |Net: a3                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+                                           |                                           
+Net: a2                                    |Net: a2                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+                                           |                                           
+Net: a6                                    |Net: a6                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+                                           |                                           
+Net: a7                                    |Net: a7                                    
+  pp_cell/a_i = 1                          |  pp_cell/a_i = 1                          
+  pp_cell_sign/a_i = 7                     |  pp_cell_sign/a_i = 7                     
+                                           |                                           
+Net: a0                                    |Net: a0                                    
+  pp_cell_sign/a_i = 1                     |  pp_cell_sign/a_i = 1                     
+  pp_cell/a_i = 7                          |  pp_cell/a_i = 7                          
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: mult8                           |Circuit 2: mult8                           
+-------------------------------------------|-------------------------------------------
+P0                                         |P0                                         
+P2                                         |P2                                         
+P4                                         |P4                                         
+P5                                         |P5                                         
+P3                                         |P3                                         
+P6                                         |P6                                         
+P1                                         |P1                                         
+P14                                        |P14                                        
+P7                                         |P7                                         
+P8                                         |P8                                         
+P10                                        |P10                                        
+P11                                        |P11                                        
+P12                                        |P12                                        
+P9                                         |P9                                         
+P13                                        |P13                                        
+P15                                        |P15                                        
+a7                                         |a1 **Mismatch**                            
+a0                                         |a5 **Mismatch**                            
+a1                                         |a4 **Mismatch**                            
+a2                                         |a3 **Mismatch**                            
+a3                                         |a2 **Mismatch**                            
+a4                                         |a6 **Mismatch**                            
+a5                                         |a7 **Mismatch**                            
+a6                                         |a0 **Mismatch**                            
+(no pin, node is a6)                       |b0                                         
+(no pin, node is row_7_0/VDD)              |VDD                                        
+(no pin, node is VSUBS)                    |VSS                                        
+(no pin, node is a6)                       |b1                                         
+(no pin, node is a6)                       |b2                                         
+(no pin, node is a6)                       |b3                                         
+(no pin, node is a6)                       |b4                                         
+(no pin, node is a6)                       |b5                                         
+(no pin, node is a6)                       |b6                                         
+(no pin, node is a6)                       |b7                                         
+---------------------------------------------------------------------------------------
+Cell pin lists for mult8 and mult8 altered to match.
+Device classes mult8 and mult8 are equivalent.
+
+Final result: Top level cell failed pin matching.
+
+The following cells had property errors:
+ nand2
+ pp_cell
+ pp_cell_sign
