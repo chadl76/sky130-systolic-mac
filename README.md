@@ -1,4 +1,4 @@
-# sky130 Systolic Array MAC: signed 8×8 Processing Element → 4×4 Systolic Array
+# sky130 Systolic Array MAC: signed 8×8 Processing Element
 
 A transistor-level **multiply-accumulate (MAC) processing element** designed in the open-source **SkyWater sky130** PDK, built up into a **4×4 systolic array**, the same dataflow idea behind Google's TPU.
 
