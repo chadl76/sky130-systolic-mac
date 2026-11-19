@@ -10,6 +10,24 @@ Designed with **xschem** (schematic), **ngspice** (simulation), and **Magic + ne
 
 ![4x4 systolic array overview](docs/images/systolic_4x4_overview_final.png)
 
+## At a glance
+
+| Spec | Value |
+|---|---|
+| **Process** | SkyWater sky130 (130 nm), 1.8 V |
+| **Function** | 4×4 output-stationary systolic array, **C = A·B** |
+| **Data width** | signed 8-bit inputs (two's complement), 20-bit accumulators |
+| **Multiplier** | Baugh-Wooley 8×8 array, full-custom (34T `pp_cell` + 32T `pp_cell_sign` tiles) |
+| **Core size** | **1715.24 × 412.85 µm ≈ 0.71 mm²** |
+| **One PE** | ≈ 429 × 104 µm |
+| **Full-custom transistors** | 2,152 per PE → **34,432** in the array |
+| **Standard cells** | 76 per PE (36 `dfxbp` flops, 20 `fa`, 20 `nor2`) → **1,216** in the array |
+| **Throughput** | 16 MACs per clock; a 4×4 result is ready after 3N−2 = **10 clocks** |
+| **Simulation** | PE verified in ngspice with a 10 ns clock (−3 × 5 accumulates to −15, −30, −45, −60) |
+| **Verification** | LVS: **1088 = 1088 devices, 2708 = 2708 nets** (array), 68 = 68 / 185 = 185 (PE) |
+| **Power** | not measured yet |
+| **Tools** | xschem · ngspice · Magic VLSI · netgen · IIC-OSIC-TOOLS |
+
 ---
 
 ## What the PE does
