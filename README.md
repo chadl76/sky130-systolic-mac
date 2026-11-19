@@ -10,14 +10,14 @@ Designed with **xschem** (schematic), **ngspice** (simulation), and **Magic + ne
 
 ![4x4 systolic array overview](docs/images/systolic_4x4_overview_final.png)
 
-## At a glance
+## Key Specifications
 
 | Spec | Value |
 |---|---|
 | **Process** | SkyWater sky130 (130 nm), 1.8 V |
 | **Function** | 4×4 output-stationary systolic array, **C = A·B** |
 | **Data width** | signed 8-bit inputs (two's complement), 20-bit accumulators |
-| **Multiplier** | Baugh-Wooley 8×8 array, full-custom (34T `pp_cell` + 32T `pp_cell_sign` tiles) |
+| **Multiplier** | 8×8 array, full-custom (34T `pp_cell` + 32T `pp_cell_sign` tiles) |
 | **Core size** | **1715.24 × 412.85 µm ≈ 0.71 mm²** |
 | **One PE** | ≈ 429 × 104 µm |
 | **Full-custom transistors** | 2,152 per PE → **34,432** in the array |
